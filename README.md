@@ -1,3 +1,14 @@
+#Learned
+1. Using Fetch API to retrieve data from "data.json" file from "PUBLIC" folder which simulates as API.
+2. While updating STATE that accepts array, we need to use spread operator. E.G: setProductList([...updatedProductList])
+3. Firebase integration with React:
+    a. Creating a project in firebase.
+    b. Installing firebase in React. i.e. npm install firebase
+    c. Configuring firebase in React. Copy the configuration code of firebase into "index.js" file.
+    d. Retriving (READ) data from firebase into React.
+    e. Adding (CREATE) data into firebase from React.
+    f. Updating (UPDATE) data of firebase from React.
+    g. Deleting (DELETE) data of firebase from React.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
