@@ -9,6 +9,8 @@
     e. Adding (CREATE) data into firebase from React.
     f. Updating (UPDATE) data of firebase from React.
     g. Deleting (DELETE) data of firebase from React.
+
+    
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
