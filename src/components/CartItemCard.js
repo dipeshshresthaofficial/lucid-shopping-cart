@@ -20,7 +20,7 @@ export default function CartItemCard({
         <p className="text-2xl mb-1">{item.title}</p>
         <p className="mb-1">Price: {item.price}</p>
         <p className="mb-1">Qty: {item.qty}</p>
-        <div className="flex text-2xl">
+        <div className="flex text-2xl text-purple-800">
           <button onClick={() => onClickingIncreaseQty(item.id)}>
             <BiPlusCircle className="mr-2" />
           </button>
