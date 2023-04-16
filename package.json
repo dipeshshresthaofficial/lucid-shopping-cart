@@ -1,4 +1,5 @@
 {
+  "homepage": "http://dipeshshresthaofficial.github.io/lucid-shopping-cart",
   "name": "lucid-shopping-cart",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "craco start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
@@ -40,6 +43,7 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.3.3",
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^5.0.0",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.9"
   }
